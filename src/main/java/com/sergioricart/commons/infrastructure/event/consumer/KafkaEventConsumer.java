@@ -1,6 +1,5 @@
-package com.sergioricart.notification_service.notification.infrastructure.event.consumer;
+package com.sergioricart.commons.infrastructure.event.consumer;
 
-import com.sergioricart.commons.infrastructure.event.consumer.EventSpecificConsumer;
 import com.sergioricart.commons.infrastructure.event.util.MessagingUtil;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
