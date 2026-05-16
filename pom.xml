@@ -12,7 +12,7 @@
 
     <groupId>com.sergioricart</groupId>
     <artifactId>sergioricart-microservice-commons</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
     <name>sergioricart-microservice-commons</name>
     <description>Shared library: Mediator pattern + Kafka/Avro infrastructure for Spring Boot microservices</description>
@@ -23,6 +23,7 @@
         <mapstruct.version>1.6.3</mapstruct.version>
         <avro.version>1.12.1</avro.version>
         <confluent.version>7.9.0</confluent.version>
+        <jjwt.version>0.12.6</jjwt.version>
     </properties>
 
     <repositories>
@@ -79,6 +80,39 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>${jjwt.version}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>${jjwt.version}</version>
+            <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
 
