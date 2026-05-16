@@ -12,7 +12,7 @@
 
     <groupId>com.sergioricart</groupId>
     <artifactId>sergioricart-microservice-commons</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
     <name>sergioricart-microservice-commons</name>
     <description>Shared library: Mediator pattern + Kafka/Avro infrastructure for Spring Boot microservices</description>
