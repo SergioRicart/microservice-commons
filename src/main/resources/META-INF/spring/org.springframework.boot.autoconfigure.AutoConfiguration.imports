@@ -3,3 +3,6 @@ com.sergioricart.commons.infrastructure.config.KafkaConsumerConfig
 com.sergioricart.commons.infrastructure.config.KafkaProducerConfig
 com.sergioricart.commons.infrastructure.event.producer.KafkaProducer
 com.sergioricart.commons.infrastructure.event.util.MessagingUtil
+com.sergioricart.commons.infrastructure.security.JwtService
+com.sergioricart.commons.infrastructure.security.JwtAuthFilter
+com.sergioricart.commons.infrastructure.security.JwtSecurityAutoConfig
